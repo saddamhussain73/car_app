@@ -1,17 +1,17 @@
 import Link from "next/link"
-import Navbar from "../components/Navbar"
+
 
 export default function honda_details(){
     return(
         <div>
-            {/* <Navbar /> */}
+            
 
             <div className="p-8">
                 <div className="flex justify-center">
                     <h1 className="text-3xl font-semibold underline"> Honda City 2024 price in pakistan,images,reviews & specs</h1>
                 </div>
                 <div className="flex justify-center mt-10">
-                    <div className="w-1/6"><img src="https://cache4.pakwheels.com/system/car_generation_pictures/7370/medium/Cover.jpg?1677570254" alt="" /></div>
+                    <div className="w-1/6"><img src="public/honda _city.jpg"width={250}height={200} alt="" /></div>
                 </div>
 
 <div className="flex justify-center space-x-4 py-10">
@@ -44,7 +44,7 @@ export default function honda_details(){
 </div>
 
             </div>
-            {/* <Footerother /> */}
+        
         </div>
     )
 }

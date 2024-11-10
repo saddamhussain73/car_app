@@ -1,17 +1,17 @@
 import Link from "next/link"
-import Navbar from "../components/Navbar"
+
 
 export default function corolla_details(){
     return(
         <div>
-            {/* <Navbar /> */}
+            
 
             <div className="p-8">
                 <div className="flex justify-center">
                     <h1 className="text-3xl font-semibold underline"> Toyota Corolla 2024 price in pakistan,images,reviews & specs</h1>
                 </div>
                 <div className="flex justify-center mt-10">
-                    <div className="w-1/6"><img src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/medium/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674" alt="" /></div>
+                    <div className="w-1/6"><img src="public/Corolla-X-Cars.jpg" width={250}height={200} alt="" /></div>
                 </div>
 
 <div className="flex justify-center space-x-4 py-10">
@@ -44,7 +44,7 @@ export default function corolla_details(){
 </div>
 
             </div>
-            {/* <Footerother /> */}
+            
         </div>
     )
 }
